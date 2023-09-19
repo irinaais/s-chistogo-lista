@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  max-width: 360px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.header {
+  padding: 24px 20px;
+}
+
+.cover {
+  padding: 30px 0 30px 21px;
+}
+
+.intro {
+  padding: 0 20px 37px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.footer {
+  padding: 20px 20px;
+}
