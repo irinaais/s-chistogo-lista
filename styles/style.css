@@ -3,6 +3,7 @@ body {
   background-color: #1e1e1e;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
@@ -28,6 +29,35 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .header {
   padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__logo {
+  display: block;
+  max-width: 78px;
+  max-height: 15px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-link {
+  color: #F5F5F5;
+  line-height: 1.2;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
 }
 
 .cover {
