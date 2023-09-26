@@ -89,6 +89,38 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   padding: 0 20px 37px;
 }
 
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 22px;
+}
+
+.intro__title {
+  max-width: 203px;
+  color: #CCC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.intro__date {
+  white-space: nowrap;
+  color: #CCC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.intro__main-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .reasons {
   padding: 40px 20px;
 }
