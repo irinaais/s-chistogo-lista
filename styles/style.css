@@ -224,4 +224,27 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .footer {
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+  line-height: 1.35;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.footer-links a {
+  color: #F5F5F5;
+  text-decoration: none;
 }
