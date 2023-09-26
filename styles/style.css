@@ -130,6 +130,43 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   padding: 40px 20px;
 }
 
+.content-section__subtitle {
+  color: #131313;
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.content-section__introduction {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+  margin-bottom: 32px;
+}
+
+.content-section__list {
+  padding: 0 0 0 16px;
+}
+
+.content-section__list-item {
+  color: #131313;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  margin-bottom: 16px;
+}
+
+.content-section__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
 .how-to {
   padding: 40px 20px 60px;
 }
