@@ -128,10 +128,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .reasons {
   padding: 40px 20px;
+  color: #131313;
 }
 
 .content-section__subtitle {
-  color: #131313;
   font-family: "EB Garamond", serif;
   font-size: 28px;
   font-weight: 500;
@@ -140,7 +140,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__introduction {
-  color: #131313;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.35;
@@ -169,6 +168,58 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .how-to {
   padding: 40px 20px 60px;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.card__author-photo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.card__author-name {
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.card__content {
+  margin-top: 8px;
+}
+
+.card_text-only {
+  margin-top: 0;
+}
+
+.card__title {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 8px 0;
+}
+
+.card__text {
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 .footer {
